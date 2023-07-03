@@ -17,3 +17,9 @@ document.addEventListener('click', (event) => {
   }
 });
 
+$(document).ready(function() {
+  function fade() {
+    $(".preloader").fadeOut("slow");
+  }
+  setTimeout(fade, 3000);
+});
